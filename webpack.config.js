@@ -27,8 +27,8 @@ module.exports = {
         publicPath: '/'
     },
     optimization: {
-        //sideEffects: 'flag', // webpack development default
-        sideEffects: true, // webpack production default
+        //sideEffects: 'flag', // webpack development default => fine
+        //sideEffects: true, // webpack production default => no auxiliaryAssets
     },
     plugins: [
         new MiniCssExtractPlugin({
